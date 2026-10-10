@@ -1,0 +1,8 @@
+{
+ "parent": "minecraft:block/orientable",
+ "textures": {
+  "top": "konorpg:block/quest_board_side",
+  "front": "konorpg:block/quest_board_front",
+  "side": "konorpg:block/quest_board_side"
+ }
+}
