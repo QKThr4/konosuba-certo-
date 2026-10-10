@@ -1,0 +1,17 @@
+{
+ "name": "Controle de Goblins",
+ "description": "Derrote 6 goblins.",
+ "type": "kill",
+ "amount": 6,
+ "xp": 110,
+ "money": 220,
+ "difficulty": 1,
+ "minRank": "F",
+ "category": "board",
+ "repeatable": true,
+ "location": "Arredores",
+ "target": "konorpg:goblin",
+ "reputation": {
+  "guild": 2
+ }
+}

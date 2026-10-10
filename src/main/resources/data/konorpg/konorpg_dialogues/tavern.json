@@ -1,0 +1,45 @@
+{
+ "speaker": "Taverneiro",
+ "start": "greet",
+ "nodes": {
+  "greet": {
+   "text": [
+    "O que vai ser? Pernas de sapo fritas é o prato do dia!",
+    "Boa noite! Aqui se bebe, se come e se fofoca."
+   ],
+   "choices": [
+    {
+     "text": "Ver o cardápio",
+     "next": "",
+     "effects": [
+      {
+       "type": "action",
+       "action": "open_shop"
+      }
+     ]
+    },
+    {
+     "text": "Ouvir rumores",
+     "next": "rumor"
+    },
+    {
+     "text": "Tchau.",
+     "next": ""
+    }
+   ]
+  },
+  "rumor": {
+   "text": [
+    "Ouvi dizer que existe uma caverna de goblins além dos portões... e que alguém muito poderoso a vigia. (EM BREVE)",
+    "Uma deusa de cabelo azul esteve aqui outro dia e me deixou a conta. Mas isso é papo de bêbado.",
+    "Dizem que um general demoníaco está reunindo exércitos. Espero que ele seja ruim em logística."
+   ],
+   "choices": [
+    {
+     "text": "Voltar",
+     "next": "greet"
+    }
+   ]
+  }
+ }
+}

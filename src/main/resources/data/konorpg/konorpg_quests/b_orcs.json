@@ -1,0 +1,19 @@
+{
+ "name": "Ameaça Orc",
+ "description": "Derrote 4 orcs.",
+ "type": "kill",
+ "amount": 4,
+ "xp": 300,
+ "money": 600,
+ "difficulty": 4,
+ "minRank": "D",
+ "category": "board",
+ "repeatable": true,
+ "location": "Florestas",
+ "target": "konorpg:orc",
+ "reputation": {
+  "guild": 4,
+  "city": 2
+ },
+ "humor": "Orcs fedem. A recompensa compensa. Mais ou menos."
+}

@@ -1,0 +1,32 @@
+{
+ "speaker": "Guarda",
+ "start": "greet",
+ "nodes": {
+  "greet": {
+   "text": [
+    "Mantenha a ordem na cidade, aventureiro.",
+    "Axel é segura. Quase sempre. Não bata nos moradores.",
+    "Os monstros lá fora estão ficando mais ousados. Cuide-se."
+   ],
+   "choices": [
+    {
+     "text": "Rumores?",
+     "next": "rumor"
+    },
+    {
+     "text": "Tchau.",
+     "next": ""
+    }
+   ]
+  },
+  "rumor": {
+   "text": "Ultimamente, mortos-vivos têm surgido à noite. Um padre faria bem... ou uma deusa. Se ela estiver sóbria.",
+   "choices": [
+    {
+     "text": "Entendi.",
+     "next": ""
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "name": "Limpeza de Esqueletos",
+ "description": "Derrote 6 guerreiros esqueleto.",
+ "type": "kill",
+ "amount": 6,
+ "xp": 220,
+ "money": 420,
+ "difficulty": 3,
+ "minRank": "E",
+ "category": "board",
+ "repeatable": true,
+ "location": "Campos à noite",
+ "target": "konorpg:skeleton_warrior",
+ "reputation": {
+  "guild": 3
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "name": "Magia do Wiz",
+ "sell": true,
+ "buy": [
+  {
+   "item": "konorpg:apprentice_staff",
+   "price": 500
+  },
+  {
+   "item": "konorpg:archmage_staff",
+   "price": 6000
+  },
+  {
+   "item": "konorpg:mana_potion",
+   "price": 90
+  },
+  {
+   "item": "konorpg:greater_mana_potion",
+   "price": 280
+  },
+  {
+   "item": "konorpg:mana_ring",
+   "price": 1500
+  },
+  {
+   "item": "konorpg:flame_necklace",
+   "price": 2500
+  },
+  {
+   "item": "konorpg:lucky_ring",
+   "price": 2200
+  }
+ ]
+}

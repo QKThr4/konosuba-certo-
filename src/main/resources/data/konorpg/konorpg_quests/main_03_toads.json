@@ -1,0 +1,22 @@
+{
+ "name": "Capítulo 1: Sapos Gigantes",
+ "description": "Os sapos gigantes estão engolindo aventureiros nas planícies. Derrote 3 deles fora da cidade.",
+ "type": "kill",
+ "amount": 3,
+ "xp": 120,
+ "money": 300,
+ "difficulty": 1,
+ "minRank": "F",
+ "category": "main",
+ "repeatable": false,
+ "location": "Planícies fora de Axel",
+ "target": "konorpg:giant_toad",
+ "unlocks": [
+  "main_04_goblins"
+ ],
+ "humor": "Aviso: sapos gostam de engolir coisas. Principalmente deusas.",
+ "reputation": {
+  "guild": 3,
+  "city": 2
+ }
+}

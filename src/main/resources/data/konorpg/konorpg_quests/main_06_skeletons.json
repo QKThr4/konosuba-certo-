@@ -1,0 +1,20 @@
+{
+ "name": "Capítulo 1: Guerreiros Esqueleto",
+ "description": "Esqueletos armados foram vistos à noite. Derrote 5 Guerreiros Esqueleto.",
+ "type": "kill",
+ "amount": 5,
+ "xp": 220,
+ "money": 600,
+ "difficulty": 3,
+ "minRank": "F",
+ "category": "main",
+ "repeatable": false,
+ "location": "Fora da cidade (à noite)",
+ "target": "konorpg:skeleton_warrior",
+ "unlocks": [
+  "main_07_rank"
+ ],
+ "reputation": {
+  "guild": 4
+ }
+}

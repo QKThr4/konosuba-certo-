@@ -1,0 +1,19 @@
+{
+ "name": "Capítulo 1: Aventureiro de Verdade",
+ "description": "Faça quests no mural até alcançar o Rank D na Guilda. (Capítulo 2: dungeons e chefes - EM BREVE)",
+ "type": "event",
+ "amount": 1,
+ "xp": 400,
+ "money": 1500,
+ "difficulty": 3,
+ "minRank": "F",
+ "category": "main",
+ "repeatable": false,
+ "location": "Guilda de Axel",
+ "target": "rank:D",
+ "minLevel": 5,
+ "reputation": {
+  "guild": 10,
+  "city": 5
+ }
+}

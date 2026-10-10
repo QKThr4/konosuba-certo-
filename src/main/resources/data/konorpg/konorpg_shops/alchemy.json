@@ -1,0 +1,26 @@
+{
+ "name": "Alquimia da Lyra",
+ "sell": true,
+ "buy": [
+  {
+   "item": "konorpg:health_potion",
+   "price": 75
+  },
+  {
+   "item": "konorpg:mana_potion",
+   "price": 85
+  },
+  {
+   "item": "konorpg:greater_health_potion",
+   "price": 235
+  },
+  {
+   "item": "konorpg:greater_mana_potion",
+   "price": 265
+  },
+  {
+   "item": "konorpg:magic_crystal",
+   "price": 200
+  }
+ ]
+}

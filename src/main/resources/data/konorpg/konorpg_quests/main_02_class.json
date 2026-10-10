@@ -1,0 +1,20 @@
+{
+ "name": "Capítulo 1: Escolha sua Classe",
+ "description": "Abra o painel (tecla K) > GUILDA e escolha sua classe. Depois aprenda uma habilidade na aba SKILLS.",
+ "type": "event",
+ "amount": 1,
+ "xp": 60,
+ "money": 150,
+ "difficulty": 1,
+ "minRank": "F",
+ "category": "main",
+ "repeatable": false,
+ "location": "Guilda de Axel",
+ "target": "choose_class",
+ "unlocks": [
+  "main_03_toads"
+ ],
+ "reputation": {
+  "guild": 2
+ }
+}

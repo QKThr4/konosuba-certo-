@@ -1,0 +1,21 @@
+{
+ "name": "Capítulo 1: Praga de Goblins",
+ "description": "Goblins estão roubando as colheitas. Derrote 6 goblins.",
+ "type": "kill",
+ "amount": 6,
+ "xp": 160,
+ "money": 400,
+ "difficulty": 2,
+ "minRank": "F",
+ "category": "main",
+ "repeatable": false,
+ "location": "Arredores de Axel",
+ "target": "konorpg:goblin",
+ "unlocks": [
+  "main_05_gate"
+ ],
+ "reputation": {
+  "guild": 3,
+  "city": 3
+ }
+}

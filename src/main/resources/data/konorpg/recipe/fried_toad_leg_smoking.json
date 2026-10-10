@@ -1,0 +1,11 @@
+{
+ "type": "minecraft:smoking",
+ "ingredient": {
+  "item": "konorpg:toad_leg"
+ },
+ "result": {
+  "id": "konorpg:fried_toad_leg"
+ },
+ "experience": 0.2,
+ "cookingtime": 100
+}

@@ -1,0 +1,38 @@
+{
+ "name": "Itens do Tomás",
+ "sell": true,
+ "buy": [
+  {
+   "item": "konorpg:health_potion",
+   "price": 80
+  },
+  {
+   "item": "konorpg:greater_health_potion",
+   "price": 250
+  },
+  {
+   "item": "konorpg:return_scroll",
+   "price": 150
+  },
+  {
+   "item": "minecraft:bread",
+   "price": 10
+  },
+  {
+   "item": "minecraft:torch",
+   "price": 3
+  },
+  {
+   "item": "konorpg:iron_ring",
+   "price": 700
+  },
+  {
+   "item": "konorpg:swift_ring",
+   "price": 1500
+  },
+  {
+   "item": "konorpg:guardian_ring",
+   "price": 1500
+  }
+ ]
+}

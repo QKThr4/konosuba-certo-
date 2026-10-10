@@ -1,0 +1,18 @@
+{
+ "name": "Caça aos Sapos Gigantes",
+ "description": "Derrote 3 sapos gigantes.",
+ "type": "kill",
+ "amount": 3,
+ "xp": 90,
+ "money": 180,
+ "difficulty": 1,
+ "minRank": "F",
+ "category": "board",
+ "repeatable": true,
+ "location": "Planícies",
+ "target": "konorpg:giant_toad",
+ "reputation": {
+  "guild": 2
+ },
+ "humor": "Recompensa: dinheiro e uma lição sobre sapos."
+}

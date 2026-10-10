@@ -1,0 +1,18 @@
+{
+ "name": "Cardápio de Sapo",
+ "description": "A taverna quer pernas de sapo gigante. Entregue 5.",
+ "type": "collect",
+ "amount": 5,
+ "xp": 70,
+ "money": 150,
+ "difficulty": 1,
+ "minRank": "F",
+ "category": "board",
+ "repeatable": true,
+ "location": "Qualquer lugar",
+ "target": "konorpg:toad_leg",
+ "reputation": {
+  "merchants": 2
+ },
+ "humor": "Dizem que parece frango. Ninguém confirmou."
+}

@@ -1,0 +1,20 @@
+{
+ "name": "Capítulo 1: Os Portões",
+ "description": "Visite o portão sul de Axel, a saída da cidade, e converse com os guardas sobre os rumores.",
+ "type": "explore",
+ "amount": 1,
+ "xp": 80,
+ "money": 200,
+ "difficulty": 1,
+ "minRank": "F",
+ "category": "main",
+ "repeatable": false,
+ "location": "Portão sul de Axel",
+ "target": "gate",
+ "unlocks": [
+  "main_06_skeletons"
+ ],
+ "reputation": {
+  "city": 3
+ }
+}

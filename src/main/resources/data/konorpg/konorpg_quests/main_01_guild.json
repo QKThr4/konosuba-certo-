@@ -1,0 +1,21 @@
+{
+ "name": "Capítulo 1: Bem-vindo à Guilda",
+ "description": "Você acordou em um mundo de fantasia. Vá até a Guilda dos Aventureiros (prédio ao norte da praça), fale com a recepcionista Luna e registre-se.",
+ "type": "event",
+ "amount": 1,
+ "xp": 50,
+ "money": 100,
+ "difficulty": 1,
+ "minRank": "F",
+ "category": "main",
+ "repeatable": false,
+ "location": "Guilda de Axel",
+ "target": "register_guild",
+ "unlocks": [
+  "main_02_class"
+ ],
+ "humor": "Dica: uma taxa de inscrição existe. Sim, até no outro mundo tem burocracia.",
+ "reputation": {
+  "guild": 2
+ }
+}

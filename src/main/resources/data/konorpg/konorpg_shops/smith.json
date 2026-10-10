@@ -1,0 +1,26 @@
+{
+ "name": "Forja do Grom",
+ "sell": true,
+ "buy": [
+  {
+   "item": "minecraft:iron_ingot",
+   "price": 40
+  },
+  {
+   "item": "minecraft:coal",
+   "price": 6
+  },
+  {
+   "item": "minecraft:iron_sword",
+   "price": 220
+  },
+  {
+   "item": "minecraft:iron_pickaxe",
+   "price": 220
+  },
+  {
+   "item": "minecraft:iron_axe",
+   "price": 220
+  }
+ ]
+}

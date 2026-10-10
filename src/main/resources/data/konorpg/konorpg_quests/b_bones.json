@@ -1,0 +1,17 @@
+{
+ "name": "Pó de Osso",
+ "description": "Entregue 6 porções de pó de osso para a alquimista.",
+ "type": "collect",
+ "amount": 6,
+ "xp": 100,
+ "money": 260,
+ "difficulty": 1,
+ "minRank": "F",
+ "category": "board",
+ "repeatable": true,
+ "location": "Qualquer lugar",
+ "target": "konorpg:bone_dust",
+ "reputation": {
+  "merchants": 2
+ }
+}

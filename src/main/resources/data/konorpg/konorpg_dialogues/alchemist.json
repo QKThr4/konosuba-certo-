@@ -1,0 +1,38 @@
+{
+ "speaker": "Alquimista",
+ "start": "greet",
+ "nodes": {
+  "greet": {
+   "text": "Poções! Efeitos colaterais não inclusos.",
+   "choices": [
+    {
+     "text": "Ver a loja",
+     "next": "",
+     "effects": [
+      {
+       "type": "action",
+       "action": "open_shop"
+      }
+     ]
+    },
+    {
+     "text": "Criar poções especiais (EM BREVE)",
+     "next": "soon"
+    },
+    {
+     "text": "Tchau.",
+     "next": ""
+    }
+   ]
+  },
+  "soon": {
+   "text": "Meu laboratório ainda está em obras. Em breve, receitas com ingredientes de monstros!",
+   "choices": [
+    {
+     "text": "Voltar",
+     "next": "greet"
+    }
+   ]
+  }
+ }
+}

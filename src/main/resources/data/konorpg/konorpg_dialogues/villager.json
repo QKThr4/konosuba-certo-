@@ -1,0 +1,34 @@
+{
+ "speaker": "Morador",
+ "start": "greet",
+ "nodes": {
+  "greet": {
+   "text": [
+    "Bom dia! Você é novo por aqui? Cuidado com os sapos.",
+    "Eu queria ser aventureiro, mas tenho medo de sapos. Muito medo.",
+    "Sabia que repolhos voam por aqui? Eu não acreditei. Agora acredito.",
+    "Dizem que a Guilda paga bem por orelhas de goblin. Eu prefiro não perguntar para que.",
+    "Minha vaca fugiu. Disseram que foi um goblin. Mas não tenho vaca."
+   ],
+   "choices": [
+    {
+     "text": "Tchau.",
+     "next": ""
+    },
+    {
+     "text": "Alguma dica?",
+     "next": "tip"
+    }
+   ]
+  },
+  "tip": {
+   "text": "Dica: venda os itens de monstros nas lojas. E mantenha sempre uma poção de vida no bolso.",
+   "choices": [
+    {
+     "text": "Valeu!",
+     "next": ""
+    }
+   ]
+  }
+ }
+}

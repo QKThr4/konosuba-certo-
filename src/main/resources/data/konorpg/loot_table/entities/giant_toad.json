@@ -1,0 +1,45 @@
+{
+ "type": "minecraft:entity",
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "konorpg:toad_leg",
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 1.0
+      }
+     ],
+     "functions": [
+      {
+       "function": "minecraft:set_count",
+       "count": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "konorpg:magic_crystal",
+     "conditions": [
+      {
+       "condition": "minecraft:random_chance",
+       "chance": 0.04
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

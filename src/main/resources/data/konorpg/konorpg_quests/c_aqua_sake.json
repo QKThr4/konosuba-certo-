@@ -1,0 +1,21 @@
+{
+ "name": "Aqua e o Sake Sumido",
+ "description": "Aqua jura que não bebeu o sake. Traga 2 garrafas de sake da loja para provar a inocência dela.",
+ "type": "collect",
+ "amount": 2,
+ "xp": 100,
+ "money": 100,
+ "difficulty": 1,
+ "minRank": "F",
+ "category": "special",
+ "repeatable": false,
+ "location": "Taverna de Axel",
+ "target": "konorpg:sake_bottle",
+ "require": {
+  "companion": "aqua"
+ },
+ "humor": "Recompensa: gratidão (duvidosa) da deusa.",
+ "reputation": {
+  "axis": 5
+ }
+}

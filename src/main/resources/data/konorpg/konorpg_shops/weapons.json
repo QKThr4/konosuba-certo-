@@ -1,0 +1,30 @@
+{
+ "name": "Armas do Bork",
+ "sell": true,
+ "buy": [
+  {
+   "item": "konorpg:adventurer_sword",
+   "price": 250
+  },
+  {
+   "item": "konorpg:goblin_hatchet",
+   "price": 400
+  },
+  {
+   "item": "konorpg:knight_longsword",
+   "price": 1200
+  },
+  {
+   "item": "konorpg:crusader_blade",
+   "price": 4000
+  },
+  {
+   "item": "konorpg:hunter_bow",
+   "price": 900
+  },
+  {
+   "item": "minecraft:arrow",
+   "price": 4
+  }
+ ]
+}

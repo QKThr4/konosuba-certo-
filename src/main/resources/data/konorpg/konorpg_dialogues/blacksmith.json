@@ -1,0 +1,38 @@
+{
+ "speaker": "Ferreiro",
+ "start": "greet",
+ "nodes": {
+  "greet": {
+   "text": "Bom trabalho exige bom aço. O que precisa?",
+   "choices": [
+    {
+     "text": "Ver a loja",
+     "next": "",
+     "effects": [
+      {
+       "type": "action",
+       "action": "open_shop"
+      }
+     ]
+    },
+    {
+     "text": "Reparar/Reforçar equipamentos (EM BREVE)",
+     "next": "soon"
+    },
+    {
+     "text": "Tchau.",
+     "next": ""
+    }
+   ]
+  },
+  "soon": {
+   "text": "Estou montando a bancada. Em breve eu reparo e reforço suas armas. Volte depois!",
+   "choices": [
+    {
+     "text": "Voltar",
+     "next": "greet"
+    }
+   ]
+  }
+ }
+}

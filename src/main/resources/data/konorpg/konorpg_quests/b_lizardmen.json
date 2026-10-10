@@ -1,0 +1,17 @@
+{
+ "name": "Homens-Lagarto",
+ "description": "Derrote 5 homens-lagarto.",
+ "type": "kill",
+ "amount": 5,
+ "xp": 200,
+ "money": 380,
+ "difficulty": 2,
+ "minRank": "E",
+ "category": "board",
+ "repeatable": true,
+ "location": "Pântanos e rios",
+ "target": "konorpg:lizardman",
+ "reputation": {
+  "guild": 3
+ }
+}

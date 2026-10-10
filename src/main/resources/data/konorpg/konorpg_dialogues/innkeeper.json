@@ -1,0 +1,54 @@
+{
+ "speaker": "Dona da Pousada",
+ "start": "greet",
+ "nodes": {
+  "greet": {
+   "text": "Bem-vindo à pousada! Uma noite de descanso por 50 Eris cura tudo e salva seu ponto de retorno.",
+   "choices": [
+    {
+     "text": "Descansar (50 Eris)",
+     "next": "rested",
+     "effects": [
+      {
+       "type": "action",
+       "action": "rest"
+      }
+     ],
+     "next_fail": "greet"
+    },
+    {
+     "text": "Só salvar meu ponto de retorno (grátis)",
+     "next": "saved",
+     "effects": [
+      {
+       "type": "action",
+       "action": "set_respawn"
+      }
+     ]
+    },
+    {
+     "text": "Tchau.",
+     "next": ""
+    }
+   ]
+  },
+  "rested": {
+   "text": "Dormiu bem? Seus ferimentos e sua mana foram restaurados.",
+   "choices": [
+    {
+     "text": "Obrigado!",
+     "next": ""
+    }
+   ]
+  },
+  "saved": {
+   "text": "Pronto, se você cair em batalha, acorda aqui. Se a deusa não ajudar antes.",
+   "choices": [
+    {
+     "text": "Valeu.",
+     "next": ""
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "name": "Orelhas de Goblin",
+ "description": "A Guilda paga por orelhas de goblin. Entregue 8.",
+ "type": "collect",
+ "amount": 8,
+ "xp": 80,
+ "money": 200,
+ "difficulty": 1,
+ "minRank": "F",
+ "category": "board",
+ "repeatable": true,
+ "location": "Qualquer lugar",
+ "target": "konorpg:goblin_ear",
+ "reputation": {
+  "guild": 1,
+  "merchants": 1
+ },
+ "humor": "Sim, é nojento. Sim, paga bem."
+}

@@ -1,0 +1,22 @@
+{
+ "name": "Taverna do Joe",
+ "sell": true,
+ "buy": [
+  {
+   "item": "konorpg:fried_toad_leg",
+   "price": 30
+  },
+  {
+   "item": "minecraft:cooked_beef",
+   "price": 20
+  },
+  {
+   "item": "minecraft:bread",
+   "price": 8
+  },
+  {
+   "item": "konorpg:sake_bottle",
+   "price": 120
+  }
+ ]
+}

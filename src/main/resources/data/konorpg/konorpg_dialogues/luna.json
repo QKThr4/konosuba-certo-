@@ -1,0 +1,97 @@
+{
+ "speaker": "Luna",
+ "start": "back",
+ "starts": [
+  {
+   "require": {
+    "registered": false
+   },
+   "node": "new"
+  }
+ ],
+ "nodes": {
+  "new": {
+   "text": "Bem-vindo à Guilda dos Aventureiros! Para se registrar, a taxa de inscrição é de {fee} Eris. Você tem {money} Eris.",
+   "choices": [
+    {
+     "text": "Quero me registrar.",
+     "next": "done",
+     "effects": [
+      {
+       "type": "action",
+       "action": "register"
+      }
+     ],
+     "next_fail": "poor"
+    },
+    {
+     "text": "Só estou olhando.",
+     "next": ""
+    }
+   ]
+  },
+  "done": {
+   "text": "Pronto! Aqui está o seu Cartão de Aventureiro. Abra o painel (tecla K) > GUILDA para escolher a classe e confira o mural de quests!",
+   "choices": [
+    {
+     "text": "Obrigado!",
+     "next": ""
+    }
+   ]
+  },
+  "poor": {
+   "text": "Hmm... a taxa é {fee} Eris e você tem só {money}. Aventureiros sem dinheiro? Comum por aqui. Volte quando tiver.",
+   "choices": [
+    {
+     "text": "Entendi.",
+     "next": ""
+    }
+   ]
+  },
+  "back": {
+   "text": [
+    "Olá, {player}! Rank {rank}, nível {level}. Como posso ajudar?",
+    "Bem-vindo de volta! Algum monstro precisando de uma lição?"
+   ],
+   "choices": [
+    {
+     "text": "Abrir o painel da Guilda (classe, cartão)",
+     "next": "",
+     "effects": [
+      {
+       "type": "action",
+       "action": "open_guild"
+      }
+     ]
+    },
+    {
+     "text": "Ver o mural de quests",
+     "next": "",
+     "effects": [
+      {
+       "type": "action",
+       "action": "open_board"
+      }
+     ]
+    },
+    {
+     "text": "Dicas de aventureiro",
+     "next": "tips"
+    },
+    {
+     "text": "Tchau.",
+     "next": ""
+    }
+   ]
+  },
+  "tips": {
+   "text": "Dicas: monstros dão XP e Eris. Itens deles valem dinheiro nas lojas. Quests sobem seu rank. E nunca, NUNCA deixe a deusa beber antes de uma luta.",
+   "choices": [
+    {
+     "text": "Voltar",
+     "next": "back"
+    }
+   ]
+  }
+ }
+}
